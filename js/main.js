@@ -39,11 +39,11 @@ $three.waypoint(function (direction) {
 
 $amount.waypoint(function (direction) {
   if (direction == 'down') {
-  $amount.addClass('amount-animate');
+    $amount.addClass('amount-animate');
   } else {
-  $amount.removeClass('amount-animate');
-}
-}, { offset: '60%' });
+    $amount.removeClass('amount-animate');
+  }
+}, {offset: '60%'});
 
 $watch.on('mouseover', function () {
   $smallHand.addClass('small-hand-spin');
