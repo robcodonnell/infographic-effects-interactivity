@@ -63,6 +63,7 @@ body {
 }
 
 @keyframes yank {
+
   0% {
     transform: translateX(0);
   }
@@ -175,18 +176,23 @@ body {
 }
 
 @keyframes jiggle {
+
   0% {
     transform: rotate(0);
   }
+
   33% {
     transform: rotate(2deg);
   }
+
   66% {
     transform: rotate(-2deg);
   }
+
   100% {
     transform: rotate(0);
   }
+
 }
 
 .dude {
@@ -284,18 +290,23 @@ body {
 }
 
 @keyframes wiggle {
+
   0% {
     transform: rotate(0);
   }
+
   33% {
     transform: rotate(5deg);
   }
+
   66% {
     transform: rotate(-5deg);
   }
+
   100% {
     transform: rotate(0);
   }
+
 }
 
 .three-months {
@@ -314,18 +325,23 @@ body {
 }
 
 @keyframes wiggle {
+
   0% {
     transform: rotate(0);
   }
+
   33% {
     transform: rotate(5deg);
   }
+
   66% {
     transform: rotate(-5deg);
   }
+
   100% {
     transform: rotate(0);
   }
+
 }
 
 .section-three {
@@ -417,7 +433,7 @@ body {
   }
 
   100% {
-    transform: translateY(0em);
+    transform: translateY(0);
   }
 
 }
