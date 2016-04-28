@@ -66,5 +66,5 @@ $house.on('click', function () {
 });
 
 $receiptClick.on('click', function () {
-  $paper.addClass('paper-animate');
+  $paper.toggleClass('paper-animate');
 });

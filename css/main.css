@@ -419,23 +419,16 @@ body {
 
 .paper {
   transition: all .5s ease-in;
-  transform: translateY(-5em);
+  transform: translateY(-3.5em);
 }
 
 .paper-animate {
-  animation: comedown .5s linear forwards;
+  transition: all .5s ease-in;
+  transform: translateY(0);
 }
 
-@keyframes comedown {
-
-  0% {
-    transform: translateY(-5em);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-
+.click-zone {
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 38em) {
