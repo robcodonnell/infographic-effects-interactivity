@@ -15,27 +15,27 @@ $title.addClass('title-animate');
 
 $grab.waypoint(function (direction) {
   if (direction == 'down') {
-  $grab.addClass('grab-animate');
+    $grab.addClass('grab-animate');
   } else {
-  $grab.removeClass('grab-animate');
-}
-}, { offset: '-5%' });
+    $grab.removeClass('grab-animate');
+  }
+}, {offset: '-5%'});
 
 $four.waypoint(function (direction) {
   if (direction == 'down') {
-  $four.addClass('four-years-animate');
+    $four.addClass('four-years-animate');
   } else {
-  $four.removeClass('four-years-animate');
-}
-}, { offset: '70%' });
+    $four.removeClass('four-years-animate');
+  }
+}, {offset: '70%'});
 
 $three.waypoint(function (direction) {
   if (direction == 'down') {
-  $three.addClass('three-months-animate');
+    $three.addClass('three-months-animate');
   } else {
-  $three.removeClass('three-months-animate');
-}
-}, { offset: '70%' });
+    $three.removeClass('three-months-animate');
+  }
+}, {offset: '70%'});
 
 $amount.waypoint(function (direction) {
   if (direction == 'down') {
