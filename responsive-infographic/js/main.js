@@ -7,6 +7,9 @@ var $smallHand = $('.small-hand');
 var $bigHand = $('.big-hand');
 var $dude = $('.dude');
 var $house = $('.just-house');
+var $watch = $('.watch');
+var $paper = $('.paper');
+var $receiptClick = $('.click-zone');
 
 $title.addClass('title-animate');
 
@@ -42,22 +45,26 @@ $amount.waypoint(function (direction) {
 }
 }, { offset: '60%' });
 
-$smallHand.on('mouseover', function () {
+$watch.on('mouseover', function () {
   $smallHand.addClass('small-hand-spin');
 });
 
-$bigHand.on('mouseover', function () {
+$watch.on('mouseover', function () {
   $bigHand.addClass('big-hand-spin');
 });
 
-$smallHand.on('mouseout', function () {
+$watch.on('mouseout', function () {
   $smallHand.removeClass('small-hand-spin');
 });
 
-$bigHand.on('mouseout', function () {
+$watch.on('mouseout', function () {
   $bigHand.removeClass('big-hand-spin');
 });
 
 $house.on('click', function () {
   $dude.toggleClass('dude-rise');
+});
+
+$receiptClick.on('click', function () {
+  $paper.addClass('paper-animate');
 });

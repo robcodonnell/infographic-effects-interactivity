@@ -401,6 +401,27 @@ body {
   width: 100%;
 }
 
+.paper {
+  transition: all .5s ease-in;
+  transform: translateY(-5em);
+}
+
+.paper-animate {
+  animation: comedown .5s linear forwards;
+}
+
+@keyframes comedown {
+
+  0% {
+    transform: translateY(-5em);
+  }
+
+  100% {
+    transform: translateY(0em);
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .one-in-ten {
